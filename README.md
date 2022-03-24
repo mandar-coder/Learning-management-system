@@ -19,3 +19,7 @@ https://github.com/mandar-coder/Learning-management-system.git
 Website Link-
 https://learning-management-system-green.vercel.app/
 ![image](https://user-images.githubusercontent.com/78254472/159980405-3359eca2-2011-42c5-8cc9-2e8134adab89.png)
+
+run npm init 
+npm install
+nodemon app
