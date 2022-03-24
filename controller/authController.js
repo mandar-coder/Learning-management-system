@@ -36,10 +36,10 @@ const handleErrors = (err) => {
 }
 
 // create json web token
-// const maxAge = 3 * 24 * 60 * 60;
+const maxAge = 3 * 24 * 60 * 60;
 const createToken = (id) => {
   return jwt.sign({ id }, 'mac secret', {
-    // expiresIn: maxAge
+    expiresIn: maxAge
   });
 };
 
